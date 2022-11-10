@@ -42,6 +42,7 @@
 		ED9D9C12291D3BC500967892 /* animals.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = animals.json; sourceTree = "<group>"; };
 		ED9D9C13291D3BC500967892 /* locations.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = locations.json; sourceTree = "<group>"; };
 		ED9D9C14291D3BC500967892 /* covers.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = covers.json; sourceTree = "<group>"; };
+		ED9D9C19291D3EAE00967892 /* Africa-Credo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Africa-Credo-Info.plist"; sourceTree = SOURCE_ROOT; };
 		EDF854D9291D3027004217B3 /* Africa_Credo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Africa_Credo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDF854DC291D3027004217B3 /* Africa_CredoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Africa_CredoApp.swift; sourceTree = "<group>"; };
 		EDF854DE291D3027004217B3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -88,6 +89,15 @@
 			path = Data;
 			sourceTree = "<group>";
 		};
+		ED9D9C1A291D3FA400967892 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				EDF854DC291D3027004217B3 /* Africa_CredoApp.swift */,
+				EDF854DE291D3027004217B3 /* ContentView.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
 		EDF854D0291D3027004217B3 = {
 			isa = PBXGroup;
 			children = (
@@ -107,10 +117,10 @@
 		EDF854DB291D3027004217B3 /* Africa_Credo */ = {
 			isa = PBXGroup;
 			children = (
+				ED9D9C19291D3EAE00967892 /* Africa-Credo-Info.plist */,
 				ED9D9C10291D3B8900967892 /* Data */,
 				ED9D9BFB291D3AF000967892 /* Video */,
-				EDF854DC291D3027004217B3 /* Africa_CredoApp.swift */,
-				EDF854DE291D3027004217B3 /* ContentView.swift */,
+				ED9D9C1A291D3FA400967892 /* App */,
 				EDF854E0291D302F004217B3 /* Assets.xcassets */,
 				EDF854E2291D302F004217B3 /* Preview Content */,
 			);
@@ -342,11 +352,12 @@
 				DEVELOPMENT_TEAM = 6RCA557BDZ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Africa-Credo-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Dark;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -371,11 +382,12 @@
 				DEVELOPMENT_TEAM = 6RCA557BDZ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Africa-Credo-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Dark;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
