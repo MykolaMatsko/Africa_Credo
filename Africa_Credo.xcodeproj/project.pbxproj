@@ -25,6 +25,9 @@
 		ED9D9C1E291D408700967892 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED9D9C1D291D408700967892 /* MapView.swift */; };
 		ED9D9C20291D40A400967892 /* GalleryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED9D9C1F291D40A400967892 /* GalleryView.swift */; };
 		ED9D9C22291D40D700967892 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED9D9C21291D40D700967892 /* MainView.swift */; };
+		ED9D9C25291D449400967892 /* CoverImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED9D9C24291D449400967892 /* CoverImageView.swift */; };
+		ED9D9C28291D48B000967892 /* CoverImageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED9D9C27291D48B000967892 /* CoverImageModel.swift */; };
+		ED9D9C2B291D4ACB00967892 /* CodableBundleExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED9D9C2A291D4ACB00967892 /* CodableBundleExtension.swift */; };
 		EDF854DD291D3027004217B3 /* Africa_CredoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF854DC291D3027004217B3 /* Africa_CredoApp.swift */; };
 		EDF854DF291D3027004217B3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF854DE291D3027004217B3 /* ContentView.swift */; };
 		EDF854E1291D302F004217B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDF854E0291D302F004217B3 /* Assets.xcassets */; };
@@ -51,6 +54,9 @@
 		ED9D9C1D291D408700967892 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		ED9D9C1F291D40A400967892 /* GalleryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryView.swift; sourceTree = "<group>"; };
 		ED9D9C21291D40D700967892 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		ED9D9C24291D449400967892 /* CoverImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoverImageView.swift; sourceTree = "<group>"; };
+		ED9D9C27291D48B000967892 /* CoverImageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoverImageModel.swift; sourceTree = "<group>"; };
+		ED9D9C2A291D4ACB00967892 /* CodableBundleExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableBundleExtension.swift; sourceTree = "<group>"; };
 		EDF854D9291D3027004217B3 /* Africa_Credo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Africa_Credo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDF854DC291D3027004217B3 /* Africa_CredoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Africa_CredoApp.swift; sourceTree = "<group>"; };
 		EDF854DE291D3027004217B3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -110,6 +116,30 @@
 			path = App;
 			sourceTree = "<group>";
 		};
+		ED9D9C23291D444500967892 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				ED9D9C24291D449400967892 /* CoverImageView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		ED9D9C26291D488100967892 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				ED9D9C27291D48B000967892 /* CoverImageModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		ED9D9C29291D4A8E00967892 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				ED9D9C2A291D4ACB00967892 /* CodableBundleExtension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
 		EDF854D0291D3027004217B3 = {
 			isa = PBXGroup;
 			children = (
@@ -129,11 +159,14 @@
 		EDF854DB291D3027004217B3 /* Africa_Credo */ = {
 			isa = PBXGroup;
 			children = (
-				ED9D9C19291D3EAE00967892 /* Africa-Credo-Info.plist */,
+				ED9D9C29291D4A8E00967892 /* Extension */,
+				ED9D9C26291D488100967892 /* Model */,
+				ED9D9C23291D444500967892 /* View */,
+				ED9D9C1A291D3FA400967892 /* App */,
 				ED9D9C10291D3B8900967892 /* Data */,
 				ED9D9BFB291D3AF000967892 /* Video */,
-				ED9D9C1A291D3FA400967892 /* App */,
 				EDF854E0291D302F004217B3 /* Assets.xcassets */,
+				ED9D9C19291D3EAE00967892 /* Africa-Credo-Info.plist */,
 				EDF854E2291D302F004217B3 /* Preview Content */,
 			);
 			path = Africa_Credo;
@@ -233,10 +266,13 @@
 			files = (
 				EDF854DF291D3027004217B3 /* ContentView.swift in Sources */,
 				ED9D9C22291D40D700967892 /* MainView.swift in Sources */,
+				ED9D9C25291D449400967892 /* CoverImageView.swift in Sources */,
+				ED9D9C28291D48B000967892 /* CoverImageModel.swift in Sources */,
 				ED9D9C1E291D408700967892 /* MapView.swift in Sources */,
 				EDF854DD291D3027004217B3 /* Africa_CredoApp.swift in Sources */,
 				ED9D9C1C291D405400967892 /* VideoListView.swift in Sources */,
 				ED9D9C20291D40A400967892 /* GalleryView.swift in Sources */,
+				ED9D9C2B291D4ACB00967892 /* CodableBundleExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
