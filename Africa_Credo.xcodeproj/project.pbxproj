@@ -21,6 +21,10 @@
 		ED9D9C16291D3BC500967892 /* animals.json in Resources */ = {isa = PBXBuildFile; fileRef = ED9D9C12291D3BC500967892 /* animals.json */; };
 		ED9D9C17291D3BC500967892 /* locations.json in Resources */ = {isa = PBXBuildFile; fileRef = ED9D9C13291D3BC500967892 /* locations.json */; };
 		ED9D9C18291D3BC500967892 /* covers.json in Resources */ = {isa = PBXBuildFile; fileRef = ED9D9C14291D3BC500967892 /* covers.json */; };
+		ED9D9C1C291D405400967892 /* VideoListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED9D9C1B291D405400967892 /* VideoListView.swift */; };
+		ED9D9C1E291D408700967892 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED9D9C1D291D408700967892 /* MapView.swift */; };
+		ED9D9C20291D40A400967892 /* GalleryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED9D9C1F291D40A400967892 /* GalleryView.swift */; };
+		ED9D9C22291D40D700967892 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED9D9C21291D40D700967892 /* MainView.swift */; };
 		EDF854DD291D3027004217B3 /* Africa_CredoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF854DC291D3027004217B3 /* Africa_CredoApp.swift */; };
 		EDF854DF291D3027004217B3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF854DE291D3027004217B3 /* ContentView.swift */; };
 		EDF854E1291D302F004217B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDF854E0291D302F004217B3 /* Assets.xcassets */; };
@@ -43,6 +47,10 @@
 		ED9D9C13291D3BC500967892 /* locations.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = locations.json; sourceTree = "<group>"; };
 		ED9D9C14291D3BC500967892 /* covers.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = covers.json; sourceTree = "<group>"; };
 		ED9D9C19291D3EAE00967892 /* Africa-Credo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Africa-Credo-Info.plist"; sourceTree = SOURCE_ROOT; };
+		ED9D9C1B291D405400967892 /* VideoListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoListView.swift; sourceTree = "<group>"; };
+		ED9D9C1D291D408700967892 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		ED9D9C1F291D40A400967892 /* GalleryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryView.swift; sourceTree = "<group>"; };
+		ED9D9C21291D40D700967892 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		EDF854D9291D3027004217B3 /* Africa_Credo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Africa_Credo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDF854DC291D3027004217B3 /* Africa_CredoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Africa_CredoApp.swift; sourceTree = "<group>"; };
 		EDF854DE291D3027004217B3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -94,6 +102,10 @@
 			children = (
 				EDF854DC291D3027004217B3 /* Africa_CredoApp.swift */,
 				EDF854DE291D3027004217B3 /* ContentView.swift */,
+				ED9D9C1B291D405400967892 /* VideoListView.swift */,
+				ED9D9C1D291D408700967892 /* MapView.swift */,
+				ED9D9C1F291D40A400967892 /* GalleryView.swift */,
+				ED9D9C21291D40D700967892 /* MainView.swift */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -220,7 +232,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				EDF854DF291D3027004217B3 /* ContentView.swift in Sources */,
+				ED9D9C22291D40D700967892 /* MainView.swift in Sources */,
+				ED9D9C1E291D408700967892 /* MapView.swift in Sources */,
 				EDF854DD291D3027004217B3 /* Africa_CredoApp.swift in Sources */,
+				ED9D9C1C291D405400967892 /* VideoListView.swift in Sources */,
+				ED9D9C20291D40A400967892 /* GalleryView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  GalleryView.swift
 //  Africa_Credo
 //
 //  Created by Mykola Matsko on 10.11.2022.
@@ -7,14 +7,14 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct GalleryView: View {
     var body: some View {
-        Text("Content")
+        Text("Gallery")
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
+struct GalleryView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        GalleryView()
     }
 }
