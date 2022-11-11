@@ -1,3 +1,8 @@
 # Africa
 
-![alt text](https://github.com/MykolaMatsko/Africa_Credo/blob/main/1browse.png)
+[<img src="1browse.png" width="245"/>](1browse.png)
+[<img src="1browse.png" width="245"/>](1browse.png)
+[<img src="1browse.png" width="245"/>](1browse.png)
+[<img src="1browse.png" width="245"/>](1browse.png)
+
+
