@@ -30,6 +30,9 @@
 		ED9D9C2B291D4ACB00967892 /* CodableBundleExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED9D9C2A291D4ACB00967892 /* CodableBundleExtension.swift */; };
 		ED9D9C2D291D5D8600967892 /* AnimalListItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED9D9C2C291D5D8600967892 /* AnimalListItemView.swift */; };
 		ED9D9C2F291D627E00967892 /* AnimalModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED9D9C2E291D627E00967892 /* AnimalModel.swift */; };
+		ED9D9C31291D6BB600967892 /* AnimalDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED9D9C30291D6BB600967892 /* AnimalDetailView.swift */; };
+		ED9D9C33291D8CB400967892 /* HeadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED9D9C32291D8CB400967892 /* HeadingView.swift */; };
+		ED9D9C35291E276600967892 /* InsetGalleryVIew.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED9D9C34291E276600967892 /* InsetGalleryVIew.swift */; };
 		EDF854DD291D3027004217B3 /* Africa_CredoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF854DC291D3027004217B3 /* Africa_CredoApp.swift */; };
 		EDF854DF291D3027004217B3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF854DE291D3027004217B3 /* ContentView.swift */; };
 		EDF854E1291D302F004217B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDF854E0291D302F004217B3 /* Assets.xcassets */; };
@@ -61,6 +64,9 @@
 		ED9D9C2A291D4ACB00967892 /* CodableBundleExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableBundleExtension.swift; sourceTree = "<group>"; };
 		ED9D9C2C291D5D8600967892 /* AnimalListItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalListItemView.swift; sourceTree = "<group>"; };
 		ED9D9C2E291D627E00967892 /* AnimalModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalModel.swift; sourceTree = "<group>"; };
+		ED9D9C30291D6BB600967892 /* AnimalDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalDetailView.swift; sourceTree = "<group>"; };
+		ED9D9C32291D8CB400967892 /* HeadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeadingView.swift; sourceTree = "<group>"; };
+		ED9D9C34291E276600967892 /* InsetGalleryVIew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsetGalleryVIew.swift; sourceTree = "<group>"; };
 		EDF854D9291D3027004217B3 /* Africa_Credo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Africa_Credo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDF854DC291D3027004217B3 /* Africa_CredoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Africa_CredoApp.swift; sourceTree = "<group>"; };
 		EDF854DE291D3027004217B3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -125,6 +131,9 @@
 			children = (
 				ED9D9C24291D449400967892 /* CoverImageView.swift */,
 				ED9D9C2C291D5D8600967892 /* AnimalListItemView.swift */,
+				ED9D9C30291D6BB600967892 /* AnimalDetailView.swift */,
+				ED9D9C32291D8CB400967892 /* HeadingView.swift */,
+				ED9D9C34291E276600967892 /* InsetGalleryVIew.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -275,12 +284,15 @@
 				ED9D9C22291D40D700967892 /* MainView.swift in Sources */,
 				ED9D9C25291D449400967892 /* CoverImageView.swift in Sources */,
 				ED9D9C28291D48B000967892 /* CoverImageModel.swift in Sources */,
+				ED9D9C31291D6BB600967892 /* AnimalDetailView.swift in Sources */,
 				ED9D9C2F291D627E00967892 /* AnimalModel.swift in Sources */,
 				ED9D9C1E291D408700967892 /* MapView.swift in Sources */,
 				EDF854DD291D3027004217B3 /* Africa_CredoApp.swift in Sources */,
 				ED9D9C1C291D405400967892 /* VideoListView.swift in Sources */,
 				ED9D9C20291D40A400967892 /* GalleryView.swift in Sources */,
+				ED9D9C35291E276600967892 /* InsetGalleryVIew.swift in Sources */,
 				ED9D9C2B291D4ACB00967892 /* CodableBundleExtension.swift in Sources */,
+				ED9D9C33291D8CB400967892 /* HeadingView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
