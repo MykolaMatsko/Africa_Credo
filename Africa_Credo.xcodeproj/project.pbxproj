@@ -33,6 +33,9 @@
 		ED9D9C31291D6BB600967892 /* AnimalDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED9D9C30291D6BB600967892 /* AnimalDetailView.swift */; };
 		ED9D9C33291D8CB400967892 /* HeadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED9D9C32291D8CB400967892 /* HeadingView.swift */; };
 		ED9D9C35291E276600967892 /* InsetGalleryVIew.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED9D9C34291E276600967892 /* InsetGalleryVIew.swift */; };
+		EDDA378D2920118100D969AE /* InsetFactView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDDA378C2920118100D969AE /* InsetFactView.swift */; };
+		EDDA378F292020F700D969AE /* InsetMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDDA378E292020F700D969AE /* InsetMapView.swift */; };
+		EDDA379129204F5900D969AE /* ExternalWebLinkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDDA379029204F5900D969AE /* ExternalWebLinkView.swift */; };
 		EDF854DD291D3027004217B3 /* Africa_CredoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF854DC291D3027004217B3 /* Africa_CredoApp.swift */; };
 		EDF854DF291D3027004217B3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF854DE291D3027004217B3 /* ContentView.swift */; };
 		EDF854E1291D302F004217B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDF854E0291D302F004217B3 /* Assets.xcassets */; };
@@ -67,6 +70,9 @@
 		ED9D9C30291D6BB600967892 /* AnimalDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalDetailView.swift; sourceTree = "<group>"; };
 		ED9D9C32291D8CB400967892 /* HeadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeadingView.swift; sourceTree = "<group>"; };
 		ED9D9C34291E276600967892 /* InsetGalleryVIew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsetGalleryVIew.swift; sourceTree = "<group>"; };
+		EDDA378C2920118100D969AE /* InsetFactView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsetFactView.swift; sourceTree = "<group>"; };
+		EDDA378E292020F700D969AE /* InsetMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsetMapView.swift; sourceTree = "<group>"; };
+		EDDA379029204F5900D969AE /* ExternalWebLinkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExternalWebLinkView.swift; sourceTree = "<group>"; };
 		EDF854D9291D3027004217B3 /* Africa_Credo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Africa_Credo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDF854DC291D3027004217B3 /* Africa_CredoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Africa_CredoApp.swift; sourceTree = "<group>"; };
 		EDF854DE291D3027004217B3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -134,6 +140,9 @@
 				ED9D9C30291D6BB600967892 /* AnimalDetailView.swift */,
 				ED9D9C32291D8CB400967892 /* HeadingView.swift */,
 				ED9D9C34291E276600967892 /* InsetGalleryVIew.swift */,
+				EDDA378C2920118100D969AE /* InsetFactView.swift */,
+				EDDA378E292020F700D969AE /* InsetMapView.swift */,
+				EDDA379029204F5900D969AE /* ExternalWebLinkView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -282,12 +291,15 @@
 				EDF854DF291D3027004217B3 /* ContentView.swift in Sources */,
 				ED9D9C2D291D5D8600967892 /* AnimalListItemView.swift in Sources */,
 				ED9D9C22291D40D700967892 /* MainView.swift in Sources */,
+				EDDA378D2920118100D969AE /* InsetFactView.swift in Sources */,
 				ED9D9C25291D449400967892 /* CoverImageView.swift in Sources */,
 				ED9D9C28291D48B000967892 /* CoverImageModel.swift in Sources */,
 				ED9D9C31291D6BB600967892 /* AnimalDetailView.swift in Sources */,
 				ED9D9C2F291D627E00967892 /* AnimalModel.swift in Sources */,
 				ED9D9C1E291D408700967892 /* MapView.swift in Sources */,
+				EDDA378F292020F700D969AE /* InsetMapView.swift in Sources */,
 				EDF854DD291D3027004217B3 /* Africa_CredoApp.swift in Sources */,
+				EDDA379129204F5900D969AE /* ExternalWebLinkView.swift in Sources */,
 				ED9D9C1C291D405400967892 /* VideoListView.swift in Sources */,
 				ED9D9C20291D40A400967892 /* GalleryView.swift in Sources */,
 				ED9D9C35291E276600967892 /* InsetGalleryVIew.swift in Sources */,
