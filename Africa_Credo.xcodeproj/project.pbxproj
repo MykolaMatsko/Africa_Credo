@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		ED1EDF8329223F5400724180 /* MotionAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED1EDF8229223F5400724180 /* MotionAnimationView.swift */; };
 		ED6C6756292112570072F493 /* VideoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6C6755292112570072F493 /* VideoModel.swift */; };
 		ED6C67582921134C0072F493 /* VideoListItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6C67572921134C0072F493 /* VideoListItemView.swift */; };
 		ED9D9C06291D3B5000967892 /* gorilla.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = ED9D9BFC291D3B4B00967892 /* gorilla.mp4 */; };
@@ -49,6 +50,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		ED1EDF8229223F5400724180 /* MotionAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionAnimationView.swift; sourceTree = "<group>"; };
 		ED6C6755292112570072F493 /* VideoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoModel.swift; sourceTree = "<group>"; };
 		ED6C67572921134C0072F493 /* VideoListItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoListItemView.swift; sourceTree = "<group>"; };
 		ED9D9BFC291D3B4B00967892 /* gorilla.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = gorilla.mp4; sourceTree = "<group>"; };
@@ -158,6 +160,7 @@
 				ED6C67572921134C0072F493 /* VideoListItemView.swift */,
 				EDEDD89329213B51008C99A5 /* VideoPlayerView.swift */,
 				EDEDD89A29214DEA008C99A5 /* MapAnnotationView.swift */,
+				ED1EDF8229223F5400724180 /* MotionAnimationView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -335,6 +338,7 @@
 				ED6C67582921134C0072F493 /* VideoListItemView.swift in Sources */,
 				ED9D9C2B291D4ACB00967892 /* CodableBundleExtension.swift in Sources */,
 				ED9D9C33291D8CB400967892 /* HeadingView.swift in Sources */,
+				ED1EDF8329223F5400724180 /* MotionAnimationView.swift in Sources */,
 				EDEDD89429213B51008C99A5 /* VideoPlayerView.swift in Sources */,
 				EDEDD89729213CD0008C99A5 /* VideoPlayerHerper.swift in Sources */,
 			);
