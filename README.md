@@ -8,5 +8,6 @@
 [<img src="Screenshots/grid1.png" width="200"/>](grid1.png)
 [<img src="Screenshots/grid2.png" width="200"/>](grid2.png)
 [<img src="Screenshots/grid3.png" width="200"/>](grid3.png)
+[<img src="Screenshots/iMessageStickers.png" width="200"/>](iMessageStickers.png)
 
 
